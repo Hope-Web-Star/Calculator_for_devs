@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./design/style.css">
+    <link rel="icon" href="./images/calculator.png">
+    <title>Calculator For Devs</title>
+</head>
+<body>
+    <!-- Navigation Bar Section -->
+    <section class="nav-bar">
+        <h1>Calculator For Devs</h1>
+        <img src="./images/output-onlinegiftools.gif" alt="calculator_icon" class="nav-bar-icon">
+        <!--
+            <a class="nav-bar-elem" href="#vw-calc-section"><h2>ViewWidth</h2></a>
+            <a class="nav-bar-elem" href="#"><h2>ViewHeight</h2></a>
+            <a class="nav-bar-elem" href="#"><h2>Rem</h2></a>
+            <div>
+                <a class="nav-bar-icon" href="#"><img class="home-icon" src="./images/home.png" alt="Home icon, home, icon"></a>
+            </div>
+        </div> -->
+    </section>
+
+    <section class="calc" id="vw-calc-section">
+        <h2>View-Port Width Calculator</h2>
+        <div class="calc-div">
+            <input class="input" id="vw-pixel-input" type="text" placeholder="Pixels">
+            <input class="input" id="vw-size-input" type="text" placeholder="VW Size">
+            <button class="result-btn" id="vw-result-btn" onclick="vw_calc()">Calculate</button>
+        </div>
+        <div class="result-div">
+            <h4 class="rs">Result</h4>
+            <h3 class="result" id="vw-result">0.00</h3>
+        </div>
+    </section>
+
+    <section class="calc" id="vh-calc-section">
+        <h2>View-Port Height Calculator</h2>
+        <div class="calc-div">
+            <input class="input" id="vh-pixel-input" type="text" placeholder="Pixels">
+            <input class="input" id="vh-size-input" type="text" placeholder="Vh Size">
+            <button class="result-btn" id="vh-result-btn" onclick="vh_calc()">Calculate</button>
+        </div>
+        <div class="result-div">
+            <h4 class="rs">Result</h4>
+            <h3 class="result" id="vh-result">0.00</h3>
+        </div>
+    </section>
+
+    <section class="calc" id="rem-calc-section">
+        <div class="rem-calc-title-div">
+            <h2>Rem Value Calculator</h2>
+            <p class="rem-calc-p">Automatically detects your browser's default text size</p>
+        </div>
+        <div class="calc-div">
+            <input class="input" id="rem-pixel-input" type="text" placeholder="Pixels">
+            <!-- <input class="input" id="rem-size-input" type="text" placeholder="Rem Size"> -->
+            <button class="result-btn" id="rem-result-btn" onclick="rem_calc()">Calculate</button>
+        </div>
+        <div class="result-div">
+            <h4 class="rs">Result</h4>
+            <h3 class="result" id="rem-result">0.00</h3>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h3 class="f-name">Creator: Luka Khokhashvili</h3>
+        <h5 class="f-title">Contact Me</h5>
+        <div class="links-div">
+            
+            <ul class="links">
+                <a href="https://www.linkedin.com/in/luka-khokhashvili-8179b7285" target="_blank" class="link-items">
+                    <img class="links-img" src="./images/linkedin.png" alt="linkedin">
+                </a>
+                <a href="https://github.com/Hope-Web-Star" target="_blank" class="link-items">
+                    <img class="links-img" src="./images/github-sign.png" alt="GitHub">
+                </a>
+                <a href="https://www.facebook.com/luka.xoxashvili.1" target="_blank" class="link-items">
+                    <img class="links-img" src="./images/facebook.png" alt="FaceBook">
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
