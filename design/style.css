@@ -254,6 +254,7 @@ body {
     .links {
         justify-content: center;
         align-items: center;
+        padding: 0;
     }
 }
 /* Responsive design for mobile end */
