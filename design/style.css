@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.18%;
+    /* padding: 0.18%; */
     gap: 1%;
     border-radius: 0 0 10px 10px;
 }
@@ -145,10 +145,10 @@ body {
     align-items: center;
     /* gap: 5%; */
     background-color: #5f5e5e;
-    height: 10.3vh;
+    height: 10.6vh;
     width: 100vw;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
     border-radius: 10px 10px 0 0;
     color: #000000;
 }
@@ -159,15 +159,15 @@ body {
 }
 
 .f-title {
-    text-decoration: none;
-    list-style: none;
     font-size: 1.5rem;
+    margin: 0;
 }
 
 .links-div {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 0;
     width: 10%;
     height: 100%;
@@ -184,8 +184,6 @@ body {
     flex-direction: row;
     text-decoration: none;
     list-style: none;
-    color: #cac9c9;
-    font-size: 0.9vw;
     gap: 2%;
     width: 25%;
 }
@@ -194,3 +192,68 @@ body {
     width: 100%;
 }
 /* Footer design end */
+
+/* Responsive design for mobile(425x889) */
+@media screen and (max-width: 425px) {
+    /* body {
+        width: 97.77vw;
+    } */
+    .nav-bar h1 {
+        font-size: 1.5rem;
+    }
+    .nav-bar-icon {
+        width: 10%;
+    }
+
+    .calc {
+        max-width: 60%;
+        height: auto;
+    }
+    .calc h2 {
+        font-size: 1.2rem;
+    }
+    .calc-div {
+        flex-direction: column;
+    }
+    .calc-div,
+    .result-div {
+        height: auto;
+    }
+    .rem-calc-title-div {
+        flex-direction: column;
+    }
+    .rem-calc-p {
+        text-align: center;
+        color: #9c9c9c;
+        margin-top: -5px;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        /* width: 100%; */
+    }
+
+    .f-name {
+        margin-right: 0;
+        margin-bottom: 1rem;
+        /* font-size: 1.2rem; */
+    }
+
+    /* .f-title {
+        font-size: 1.2rem; 
+    } */
+
+    .links-div {
+        flex-direction: column;
+        gap: 5%;
+        width: 100%;
+    }
+
+    .links {
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* Responsive design for mobile end */
