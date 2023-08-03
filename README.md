@@ -1,7 +1,5 @@
 # Calculator_for_devs
 
-For Georgian scroll down(on line 11) /// ქართულ ტექსტს ნახავთ ქვემოთ( მე-11 ხაზზე)
-
 <---
 This project is a independent creation of mine, that serves to find and convert
 pixel values into units commonly used by web developers,
