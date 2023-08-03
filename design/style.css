@@ -258,3 +258,11 @@ body {
     }
 }
 /* Responsive design for mobile end */
+
+/* Responsive design to fix calc container height */
+@media screen and (max-height: 889px) {
+    .calc {
+        height: auto;
+    }
+}
+/* Responsive design to fix calc-div height end */
